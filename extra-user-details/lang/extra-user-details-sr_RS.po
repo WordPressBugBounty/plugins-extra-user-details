@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Extra User Details\n"
+"POT-Creation-Date: 2013-11-04 10:52+0100\n"
+"PO-Revision-Date: 2014-11-13 14:09+0100\n"
+"Last-Translator: Vadym K. <vadimk@vadimk.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Language: sr_RS\n"
+"X-Poedit-SearchPath-0: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-"
+"details/trunk\n"
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:42
+msgid "How to use this plugin:"
+msgstr "Kako da koristite ovaj plugin"
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:43
+msgid ""
+"<strong>Meta key</strong>: This is the key to use in templates with "
+"<em>get_user_meta('meta_key')</em>. No special characters please, only "
+"lowercase letters, '_' and '-' can be used. <strong>NOTE:</strong> If you "
+"change this slug later, this will NOT update meta key for existing meta "
+"values in DB!"
+msgstr ""
+"<strong>Meta ključ</strong>: Ovo je ključ pomoću kojeg koristite šablone "
+"<em>preuzmi_meta_korisnika ('meta_ključ')</em>. Bez posebnih karaktera, "
+"molim; možete koristiti samo mala slova, '_' i '- '. <strong>NAPOMENA:</"
+"strong> Ako kasnije promenite ovaj slug, NEĆETE ažurirati meta ključ za "
+"postojeće meta vrednosti u bazi podataka!"
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:44
+msgid ""
+"<strong>Field label</strong>: This is the label your users will see on their "
+"profile."
+msgstr ""
+"<strong>Oznaka polja</strong>: Ovo je oznaka koju će vaši korisnici videti "
+"na svojim profilima. "
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:45
+msgid ""
+"<strong>Help text</strong>: Description text is showing near the appropriate "
+"custom field in user profile."
+msgstr ""
+"<strong>Tekst za pomoć</strong>: Tekst opisa prikazuje se blizu "
+"odgovarajućeg prilagođenog polja na profilu korisnika. "
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:45
+msgid "The default help text is:"
+msgstr "Podrazumevani tekst za pomoć je:"
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:45
+msgid "Please fill in this additional profile information field."
+msgstr "Popunite dodatno polje za informacije o profilu."
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:46
+msgid ""
+"<strong>Access level</strong>: By default extra fields are displayed for all "
+"user levels (subscribers, contributors, editors etc.). If you want to "
+"restrict some specific field usage, select appropriate users to have some "
+"specific extra field."
+msgstr ""
+"<strong>Nivo pristupa </strong>: Po standardu, dodatna polja prikazuju se za "
+"sve nivoe korisnika (pretplatnike, donatore, urednike itd.). Ako želite da "
+"ograničite upotrebu polja, odaberite odgovarajuće korisnike koji treba da "
+"imaju specifično dodatno polje.  "
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:47
+msgid ""
+"<strong>Field order</strong>: Fields are normally displayed - both here as "
+"well as on user profiles - in the order in which they are added. If you "
+"would like to change the order in which these extra fields are displayed: "
+"simply move the field above or below another one and update settings."
+msgstr ""
+"<strong>Redosled polja</strong>: Polja se obično prikazuju - ovde i na "
+"profilima korisnika - redom kojim su dodata. Ako želite da promenite "
+"redosled prikazivanja dodatnih polja, jednostavno pomerite polje iznad ili "
+"ispod drugog polja i ažurirajte podešavanja. "
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:48
+msgid ""
+"<strong>WARNING</strong>: Please remember, you're using this plugin for your "
+"own risk and should know what you're doing, because wp_usermeta table "
+"contains other meta_keys for another purpose which can be affected (if you "
+"set the same slug for your extra field). If you will add two identical "
+"fields - the user won't be able to update those fields in profile."
+msgstr ""
+"<strong>UPOZORENJE</strong>: Ne zaboravite, ovaj plugin koristite na "
+"sopstveni rizik. Treba da znate šta radite jer wp_meta tabela korisnika "
+"sadrži i druge meta_ključeve za druge svrhe koji mogu biti promenjeni (ako "
+"za dodatno polje podesite isti slug). Ako dodate dva identična polja, "
+"korisnik neće moći da ažurira ta polja na profilu. "
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:92
+msgid "Extra User Details"
+msgstr "Dodatni detalji o korisniku"
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:148
+msgid "Extra Fields Options Updated."
+msgstr "Polja ‘Dodatni detalji o korisniku’ ažurirana."
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:152
+msgid ""
+"However, highlighted fields are not updated because contain errors! Please "
+"correct them and update fields again or this fields will be lost."
+msgstr ""
+"Markirana polja nisu ažurirana jer sadrže greške! Ispravite greške i ponovo "
+"ažurirajte polja inače ćete ih izgubiti."
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:162
+msgid "Extra User Details Options"
+msgstr "Opcije za dodatne detalje o korisniku "
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:167
+msgid "Currently defined fields"
+msgstr "Trenutno definisana polja"
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:196
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:282
+msgid "Meta Key:"
+msgstr "Meta ključ:"
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:196
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:283
+msgid "Field Name:"
+msgstr "Naziv polja:"
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:196
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:284
+msgid "Description (Help Text):"
+msgstr "Opis (Tekst za pomoć):"
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:196
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:285
+msgid "Access Level:"
+msgstr "Nivo pristupa:"
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:301
+msgid "Admins Only"
+msgstr "Samo administratori"
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:302
+msgid "Admins, Editors"
+msgstr "Administratori, Urednici"
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:303
+msgid "Admins, Editors, Authors"
+msgstr "Administratori, Urednici, Autori"
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:304
+msgid "Admins, Editors, Authors, Contributors"
+msgstr "Administratori, Urednici, Autori, Donatori"
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:305
+msgid "Everyone"
+msgstr "Svi"
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:306
+msgid "Disable"
+msgstr "Deaktiviraj"
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:205
+msgid "Delete"
+msgstr "Izbrisati"
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:336
+msgid "Add New Field"
+msgstr "Dodati novo polje"
+
+#: /Users/vadimk/Documents/Work/VKH/SVN/extra-user-details/trunk/extra_user_details.php:330
+msgid "Update Extra Fields"
+msgstr "Ažuriraj dodatna polja"

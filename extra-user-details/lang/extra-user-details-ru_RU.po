@@ -1,0 +1,184 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Extra User Details\n"
+"POT-Creation-Date: 2013-11-22 12:58+0100\n"
+"PO-Revision-Date: 2014-11-13 14:33+0100\n"
+"Last-Translator: Vadym K. <vadimk@vadimk.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Language: ru_RU\n"
+"X-Poedit-SearchPath-0: /Users/vadimk/WebServer/wordpress/3.3/wp-content/"
+"plugins/extra-user-details/.\n"
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:51
+msgid "How to use this plugin:"
+msgstr "Как пользоваться плагином:"
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:52
+msgid ""
+"<strong>Meta key</strong>: This is the key to use in templates with "
+"<em>get_user_meta('meta_key')</em>. No special characters please, only "
+"lowercase letters, '_' and '-' can be used. <strong>NOTE:</strong> If you "
+"change this slug later, this will NOT update meta key for existing meta "
+"values in DB!"
+msgstr ""
+"<strong>Мета ключ</strong>: Это ключ, который нужно использовать в шаблонах "
+"<em>get_user_meta('meta_key')</em>. Не используйте спецсимволы, только буквы "
+"в нижнем регистре, '_' и '-'. <strong>ОБРАТИТЕ ВНИМАНИЕ:</strong> Если вы "
+"решите поменять мета ключ, все ранее заполненные значения полей не "
+"перенесутся на новый ключ!"
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:53
+msgid ""
+"<strong>Field label</strong>: This is the label your users will see on their "
+"profile."
+msgstr ""
+"<strong>Название поля</strong>: Это название будет изображено в профиле "
+"пользователя."
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:54
+msgid ""
+"<strong>Help text</strong>: Description text is showing near the appropriate "
+"custom field in user profile."
+msgstr ""
+"<strong>Текст подсказки</strong>: Текст описания будет изображен у "
+"соответствующего поля в профиле пользователя."
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:54
+msgid "The default help text is:"
+msgstr "Текст подсказки по умолчанию:"
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:54
+msgid "Please fill in this additional profile information field."
+msgstr "Пожалуйста, заполните это дополнительное поле."
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:55
+msgid ""
+"<strong>Access level</strong>: By default extra fields are displayed for all "
+"user levels (subscribers, contributors, editors etc.). If you want to "
+"restrict some specific field usage, select appropriate users to have some "
+"specific extra field."
+msgstr ""
+"<strong>Уровень доступа</strong>: По умолчанию, дополнительные поля видны "
+"пользователям всех уровнях доступа (подписчики, авторы, редакторы и тп.). "
+"Если вы хотите ограничить видимость конкретного поля, выберите "
+"соответствующую группу пользователей для отдельного поля."
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:56
+msgid ""
+"<strong>Field order</strong>: Fields are normally displayed - both here as "
+"well as on user profiles - in the order in which they are added. If you "
+"would like to change the order in which these extra fields are displayed: "
+"simply move the field above or below another one and update settings."
+msgstr ""
+"<strong>Порядок полей</strong>: По умолчанию поля изображаются в таком же "
+"порядке, в каком они были добавлены как в настройках, так и в профиле "
+"пользователя. Если вы хотите поменять их порядок, просто перетяните поле "
+"вверх или вниз и сохраните изменения."
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:57
+msgid ""
+"<strong>WARNING</strong>: Please remember, you're using this plugin for your "
+"own risk and should know what you're doing, because wp_usermeta table "
+"contains other meta_keys for another purpose which can be affected (if you "
+"set the same slug for your extra field). If you will add two identical "
+"fields - the user won't be able to update those fields in profile."
+msgstr ""
+"<strong>ВНИМАНИЕ</strong>: Пожалуйста, помните, вы используете этот плагин "
+"на свой страх и риск и должны знать, что вы делаете, потому как таблица "
+"wp_usermeta содержит значения других полей, которые могут быть затронуты "
+"(если вы настроите такие же мета ключи для вашего поля). Если вы добавите "
+"два одинаковых поля, пользователь не сможет обновить значения поля в своем "
+"профиле."
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:101
+msgid "Extra User Details"
+msgstr "Дополнительные поля"
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:157
+msgid "Extra Fields Options Updated."
+msgstr "Настройки дополнительных полей обновлены."
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:161
+msgid ""
+"However, highlighted fields are not updated because contain errors! Please "
+"correct them and update fields again or this fields will be lost."
+msgstr ""
+"Однако, обозначенные поля не были обновлены, потому как содержат ошибки! "
+"Пожалуйста, исправьте их и обновите снова, иначе поля будут потеряны."
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:171
+msgid "Extra User Details Options"
+msgstr "Настройки дополнительных полей"
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:176
+msgid "Currently defined fields"
+msgstr "Текущие дополнительные поля"
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:205
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:291
+msgid "Meta Key:"
+msgstr "Мета ключ:"
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:205
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:292
+msgid "Field Name:"
+msgstr "Название поля:"
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:205
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:293
+msgid "Description (Help Text):"
+msgstr "Описание (текст подсказки):"
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:205
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:294
+msgid "Access Level:"
+msgstr "Уровень доступа:"
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:205
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:310
+msgid "Admins Only"
+msgstr "Только администратор"
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:205
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:311
+msgid "Admins, Editors"
+msgstr "Администратор, редактор"
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:205
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:312
+msgid "Admins, Editors, Authors"
+msgstr "Администратор, редактор, автор"
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:205
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:313
+msgid "Admins, Editors, Authors, Contributors"
+msgstr "Администратор, редактор, автор, участник"
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:205
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:314
+msgid "Everyone"
+msgstr "Все"
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:205
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:315
+msgid "Disable"
+msgstr "Отключить"
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:205
+msgid "Delete"
+msgstr "Удалить"
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:336
+msgid "Add New Field"
+msgstr "Добавить новое поле"
+
+#: /Users/vadimk/WebServer/wordpress/3.3/wp-content/plugins/extra-user-details/./extra_user_details.php:339
+msgid "Update Extra Fields"
+msgstr "Обновить дополнительные поля"
