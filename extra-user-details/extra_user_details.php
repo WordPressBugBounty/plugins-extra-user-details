@@ -4,7 +4,7 @@ Plugin Name: Extra User Details
 Plugin URI: https://vadimk.com/wordpress-plugins/extra-user-details/
 Description: Allows you to add additional fields to the user profile like Facebook, Twitter etc.
 Author: Vadym K.
-Version: 0.5.2
+Version: 0.5.3
 Text Domain: extra-user-details
 Author URI: https://vadimk.com/
 License: GPLv2 or later
@@ -429,7 +429,13 @@ function eud_plugin_options()
 function eud_update_ExtraFields()
 {
     $get_user_id = get_user_id();
-    $all_fields  = unserialize(get_option(CONFIG_OPTION));
+    $serialized_config = get_option(CONFIG_OPTION);
+    
+    if (!is_string($serialized_config)) {
+        return;
+    }
+
+    $all_fields  = unserialize($serialized_config);
 
     $slug2cap = array();
 

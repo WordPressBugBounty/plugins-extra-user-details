@@ -3,8 +3,8 @@ Contributors: Vadimk
 Donate link: https://vadimk.com/donate/
 Tags: admin, profile, links, social, fields
 Requires at least: 3.3
-Tested up to: 6.5.5
-Stable tag: 0.5.2
+Tested up to: 6.6.2
+Stable tag: 0.5.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,6 +35,10 @@ Install it like any other plugin, no special actions required.
 Please contact me here http://vadimk.com/contact/.
 
 == Changelog ==
+
+= 0.5.3 =
+* Fixed possible error on user password reset.
+* Tested up to WordPress version 6.6.2.
 
 = 0.5.2 =
 * Tested up to WordPress version 6.5.5.
